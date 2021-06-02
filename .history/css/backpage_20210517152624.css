@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.background{
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-image: url(/Pictures/tree.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+div.logo{
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.logo-container{
+    height: 400px;
+    text-align: center;
+}
+
+p.logo{
+    padding-left: 560px;
+    width: 100%;
+    max-width: 1108px;
+    font-size: 1.7em;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 15px;
+    font-family: lemon;
+}
+
+
+
+
+
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Light.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Regular.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family:lemon ;
+    src: url(/fonts/LEMONMILK-Medium.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Bold.otf);
+    font-weight: 400;
+}
+

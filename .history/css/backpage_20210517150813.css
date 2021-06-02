@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-image: url(/Pictures/tree.jpg);
+    background-size: cover;
+    background-position:center;
+}

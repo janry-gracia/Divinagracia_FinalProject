@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.background{
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-image: url(/Pictures/tree.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+
+.logo-container{
+    height: 400px;
+    text-align: center;
+}
+div.logo{
+    right: 90px;
+}
+
+.logo{
+    position: absolute;
+    right: 24px;
+    top: 50px;
+}
+
+p.logo{
+    padding-top: 200px;
+    max-width: 1108px;
+    font-size: 1.7em;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 15px;
+    font-family: lemon;
+}
+
+.btn{
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(141, 141, 141, 0.144);
+    color: rgb(112, 112, 112);
+    font-family: lemon;
+    font-size: 3em;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    animation: showbuttons 2s ;
+}
+
+
+
+/*-Animation-*/
+@keyframes showbuttons {
+    from{margin-right: 100px;}
+    to{margin-right: 0px;}
+}
+
+
+
+
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Light.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Regular.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family:lemon ;
+    src: url(/fonts/LEMONMILK-Medium.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Bold.otf);
+    font-weight: 400;
+}
+

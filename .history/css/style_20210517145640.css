@@ -1,0 +1,368 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+/*--Front Page--*/
+.container-fluid{
+    padding: 0%;
+    margin: 0%;
+}
+
+.position-relative{
+    overflow:hidden;
+}
+
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.box{
+    background-color: black;
+    height: 100vh;
+    padding: auto;
+    margin: auto;
+}
+
+div.greeting{
+    
+    margin-top: 80px;
+    position: absolute;
+    color: black;
+    font-family: lemon;
+    left: 45%;
+    top: 50%;
+    transform: translate(-45%,-50%);
+}
+
+
+.text1, .text2{
+    font-weight: 400;
+    -webkit-text-stroke: #f2f92d;
+    -webkit-text-stroke-width: 5px;
+    font-size: 14em;
+ 
+}
+
+.text1{
+    letter-spacing: 120px;
+}
+.text2{
+    letter-spacing: 77px;
+}
+
+.text3{
+    font-weight: 300;
+    -webkit-text-stroke: #f2f92d;
+    -webkit-text-stroke-width: 2px;
+    font-size: 2.9em;
+    letter-spacing:7px;
+}
+
+.batman{
+    position: absolute;
+    top: -40.8%;
+    left: 57%;
+    z-index: -1;
+    background-image: url("Pictures/iambatman.png");
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 705px;
+
+}
+
+div.text4{
+    text-align: center;
+}
+
+.text4{
+    padding-top: 20px;
+    font-weight: 100;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    letter-spacing:30px;
+    font-size: 20px;
+    animation-name: clickme;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+.greeting:hover, .box:hover{
+    cursor: pointer;
+}
+
+.box.box1transition{
+    transform: translate(-110%);
+}
+.box.box2transition{
+    transform: translate(110%);
+}
+
+.greeting{  
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/*-Back Page-*/
+.background{
+    background-color: antiquewhite;
+}
+
+.logo-container{
+    height: 400px;
+    text-align: center;
+}
+div.logo{
+    right: 115px;
+}
+
+.logo{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+p.logo{
+    padding-top: 200px;
+    max-width: 1108px;
+    font-size: 1.7em;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 15px;
+    font-family: lemon;
+}
+button{
+    width: 500px;
+    height: 500px;
+    background-color: #f2f92d;
+
+}
+
+
+/*-Media Queries-*/
+
+@media (max-width:1200px){
+    .text1, .text2{
+        font-size: 10em;
+        -webkit-text-stroke-width: 4px;
+    }
+
+    div.greeting{
+        left: 55%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .batman{
+        top: -52.2%;
+        left: 55%;
+        z-index: -1;
+        width: 600px;
+        height: 605px;
+    
+    }
+
+    .text3{
+        -webkit-text-stroke-width: 1.5px;
+        font-size: 2.14em;
+    }
+
+    .text4{
+        font-size: 15px;
+        padding-right: 50px;
+        line-height: 25px;
+    }
+
+
+}
+
+@media (max-width:992px){
+
+    .text1, .text2{
+        font-size: 8em;
+        -webkit-text-stroke-width: 3    px;
+    }
+
+    div.greeting{
+        left: 55%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .batman{
+        top: -52.2%;
+        left: 56%;
+        z-index: -1;
+        width: 500px;
+        height: 505px;
+    
+    }
+
+    .text3{
+        -webkit-text-stroke-width: 1.2px;
+        font-size: 1.76em;
+    }
+
+    .text4{
+        font-size: 13px;
+        padding-right: 50px;
+        line-height: 18px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .text1, .text2{
+        max-width: 120px;
+        display: block;
+        font-size: 10em;
+        -webkit-text-stroke-width: 3px;
+        letter-spacing: 1px;
+    }
+
+    .text1{
+        text-align: center;
+    }
+
+    div.greeting{
+        left: 40%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .batman{
+        top: -17.5%;
+        left: 30%;
+        z-index: -1;
+        width: 600px;
+        height: 605px;
+    
+    }
+
+    .text3{
+        text-align: justify;
+        -webkit-text-stroke-width: 0.5px;
+        font-size: 1.76em;
+        margin-top: -20px;
+        margin-left: 5px;
+    }
+
+    div.text4{
+        font-size: 13px;
+        padding-right: 0px;
+        line-height: 18px;
+        padding-right: 0%;
+        text-align:center;
+        margin-left: 160px;
+    }
+
+    .text4{
+        padding-right: 0px;
+    }
+
+ 
+}
+
+@media (max-width:576px) {
+    .text1, .text2{
+        max-width: 100px;
+        display: block;
+        font-size: 8em;
+        -webkit-text-stroke-width: 3px;
+        letter-spacing: 1px;
+    }
+
+    .text1{
+        text-align: center;
+    }
+
+
+    div.greeting{
+        left: 45%;
+        top: 50%;
+        transform: translate(-55%,-50%);
+    }
+
+    .batman{
+        top: -17.98%;
+        left: 30%;
+        z-index: -1;
+        width: 500px;
+        height: 505px;
+    
+    }
+
+    .text3{
+        text-align:left;
+        -webkit-text-stroke-width: 0.5px;
+        font-size: 1.76em;
+        margin-top: -20px;
+    }
+
+    div.text4{
+        font-size: 15px;
+        padding-right: 0px;
+        line-height: 40px;
+        padding-right: 0%;
+        text-align:center;
+        margin-left: 90px;
+    }
+
+    .text4{
+        padding-right: 0px;
+        line-height: 25px;
+        max-width: 800px;
+    }
+
+ 
+}
+    
+
+
+
+
+
+
+
+
+@keyframes clickme {
+    0% {opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity:1;}
+}
+
+@keyframes hidecontent{
+    from{opacity: 1; z-index: 1;}
+    to {opacity: 0; z-index: -1;} 
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(fonts/LEMONMILK-Light.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: lemon;
+    src: url(fonts/LEMONMILK-Regular.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family:lemon ;
+    src: url(fonts/LEMONMILK-Medium.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(fonts/LEMONMILK-Bold.otf);
+    font-weight: 400;
+}
+

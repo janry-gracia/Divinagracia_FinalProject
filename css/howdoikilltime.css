@@ -1,0 +1,818 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html, body{
+    background: rgba(255, 255, 255, 0);
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+   animation: opacity 2s forwards;
+   scroll-snap-type: y mandatory;
+   scroll-behavior: smooth;
+}
+
+.slide{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0%;
+    text-align: center;
+  
+}
+
+.slide h1{
+    padding-top: 50%;
+    transform: translateY(-50%);
+    font-size: 10em;
+    color: white;
+}
+
+.slide  .section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+}
+
+.slide .section:nth-child(2){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT//gbg.png);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(3){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/valorant.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(4){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/dota.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(5){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/lol.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(6){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/2k21.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(7){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/rdr2.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(8){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/horizon.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(9){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/witcher.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(10){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/ml.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* movies-series*/
+
+.slide .section:nth-child(11){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/mts.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(12){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/himym1.jpeg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(13){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/friends.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(14){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/b99.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(15){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/hsm.png);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(16){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/got.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(17){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/mh.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(18){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/theboys.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(19){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/invincible.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*ANIME*/
+
+.slide .section:nth-child(20){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/anime.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(21){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/naruto.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(22){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/onepiece.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide .section:nth-child(23){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/dbz.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide .section:nth-child(24){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/fullmetal.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide .section:nth-child(25){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/hxh.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide .section:nth-child(26){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/slamdunk.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide .section:nth-child(27){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/gto.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide .section:nth-child(28){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/rezero.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide .section:nth-child(29){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/deathnote.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide .section:nth-child(30){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/fate.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide .section:nth-child(31){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/opm2.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+.slide .section:nth-child(32){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/tokyoghoul.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide .section:nth-child(33){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/aot.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+.slide .section:nth-child(34){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/jujutsu.png);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(35){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/akame.png);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(36){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/kimetsu.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(37){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/slime.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(38){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/sao.png);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
+.slide .section:nth-child(39){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/cg.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(40){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/violet.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(41){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/rent.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.slide .section:nth-child(42){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/jojo.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*Others*/
+
+
+.slide .section:nth-child(43){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/others2.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(44){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/guitar.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(45){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/music.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide .section:nth-child(46){
+    background: rgb(97, 97, 97) url(/Pictures/HDIKT/vxv.png);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.151) !important;
+    padding: 8px;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding-right: 30px;
+}
+
+.nav-link  {
+    color: white !important;
+    font-size: 1.0em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase   ;
+}
+
+.choices, .choice{
+    height: 100%;
+
+}
+
+.choices h1{
+    padding-top: 200%;
+    margin: auto;
+    padding: auto;
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    font-family: lemon;
+    font-weight: 300;
+}
+
+.choice1{
+    background: url(/Pictures/HDIKT/gbg.png);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
+.choice2{
+    background: url(/Pictures/HDIKT/mts.jpg);
+    background-size:contain;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
+.choice3{
+    background: url(/Pictures/HDIKT/anime.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
+
+.choice4{
+    background: url(/Pictures/HDIKT/others2.jpg);
+    background-size:cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
+.section:hover{
+    cursor: pointer;
+}
+
+
+
+.loader-container {
+    position: absolute;
+    height: 40px;
+    width: 1000px;
+    margin-top: 1000px;
+    opacity: 0;
+  }
+  
+  .loader-container > div {
+    position: relative;
+    display: inline-block;
+    background: #03A9F4;
+    height: 100%;
+    width: 20px;
+    margin: 0;
+    -webkit-animation: load 3s ease-in-out infinite;
+    animation: load 3s ease-in-out infinite;
+  }
+  
+  .loader-container .rectangle-2 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+  }
+  
+  .loader-container .rectangle-3 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
+  
+  .loader-container .rectangle-4 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  }
+  
+  .loader-container .rectangle-5 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+  
+  .loader-container .rectangle-6 {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+
+  
+.loader-container1 {
+    position: absolute;
+    height: 40px;
+    width: 1000px;
+    margin-top: 250px;
+    opacity: 0;
+  }
+  
+  .loader-container1 > div {
+    position: relative;
+    display: inline-block;
+    background: #03A9F4;
+    height: 100%;
+    width: 20px;
+    margin: 0;
+    -webkit-animation: load 3s ease-in-out infinite;
+    animation: load 3s ease-in-out infinite;
+  }
+  
+  .loader-container1 .rectangle-2 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+  }
+  
+  .loader-container1 .rectangle-3 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
+  
+  .loader-container1 .rectangle-4 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  }
+  
+  .loader-container1 .rectangle-5 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+  
+  .loader-container1 .rectangle-6 {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+
+  h3{
+    font-family: lemon,sans-serif;
+    font-size: 5em;
+    margin-top: 100px;
+    color: white;
+    text-shadow: 0px 0px 14px rgba(0,0,0,0.38);
+  }
+  
+  @-moz-keyframes load {
+    0%,
+    100% {
+      -moz-transform: scaleY(1);
+      background: green;
+    }
+    16.67% {
+      -moz-transform: scaleY(3);
+      background: white;
+    }
+    33.33% {
+      -moz-transform: scaleY(1);
+      background: white;
+    }
+    50% {
+      -moz-transform: scaleY(3);
+      background: white;;
+    }
+    66.67% {
+      -moz-transform: scaleY(1);
+      background: white;;
+    }
+    83.34% {
+      -moz-transform: scaleY(3);
+      background: white;;
+    }
+  } 
+  
+  @-webkit-keyframes load {
+    0%,
+    100% {
+      -webkit-transform: scaleY(1);
+      background: white;;
+    }
+    16.67% {
+      -webkit-transform: scaleY(3);
+      background: white;;
+    }
+    33.33% {
+      -webkit-transform: scaleY(1);
+      background: white;;
+    }
+    50% {
+      -webkit-transform: scaleY(3);
+      background: white;;
+    }
+    66.67% {
+      -webkit-transform: scaleY(1);
+      background: white;;
+    }
+    83.34% {
+      -webkit-transform: scaleY(3);
+      background: white;;
+    }
+  } 
+  
+  @keyframes load {
+    0%,
+    100% {
+      transform: scaleY(1);
+      background: white;;
+    }
+    16.67% {
+      transform: scaleY(3);
+      background: white;;
+    }
+    33.33% {
+      transform: scaleY(1);
+      background: white;;
+    }
+    50% {
+      transform: scaleY(3);
+      background: white;;
+    }
+    66.67% {
+      transform: scaleY(1);
+      background: white;;
+    }
+    83.34% {
+      transform: scaleY(3);
+      background: rgb(226, 223, 17);;
+    }
+  } 
+
+  @media (max-width:1500px) {
+    .navbar-nav li{
+      padding-right: 10px;
+      
+  }
+
+  .nav-item{
+    text-align: center;
+  }
+
+}
+
+  @media (max-width:1350px) {
+    .navbar-nav li{
+      padding-right: 10px;
+  }
+  .choices h1{
+    font-size: 4.5em;
+    padding-top: 250%;
+
+}
+  }
+
+@media (max-width:1300px) {
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  .9em;
+    }
+
+    .navbar-nav li{
+      padding-right: 15px;
+  }
+
+  
+  }
+
+  @media (max-width:1230px) {
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  .8em;
+    }
+
+    .navbar-nav li{
+      padding-right: 10px;
+  }
+
+  .choices h1{
+    font-size: 4em;
+
+}
+  }
+
+  @media (max-width:1200px) {
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  .8em;
+    }
+
+    .navbar-nav li{
+      padding-right: 5px;
+  }
+  
+
+}
+
+@media (max-width:990px) {
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  1.2em;
+    }
+
+    .navbar-nav li{
+      padding-right: 5px;
+  }
+
+  .choices h1{
+    font-size: 3em;
+    padding-top: 300%;
+
+  }
+
+  
+
+}
+
+
+@media (max-width:768px) {
+
+  .carousel-item{
+    height: 40rem;
+    background-position: center;
+    background-size: auto;
+}
+
+  .choice{
+    display: none;
+  }
+
+  .choices h1{
+    font-size: 3em;
+    padding-top: 400%;
+
+  }
+
+
+  .nav-item{
+    text-align: center;
+  }
+
+  .nav-link{
+    font-size:  1.2em;
+  }
+
+  .navbar-nav li{
+    padding-right: 5px;
+}
+}
+
+@media (max-width:576px) {
+
+  
+  }
+
+
+  @keyframes fadeIn {
+   from {opacity:0;}
+    to {opacity:1;}
+  }
+
+
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Light.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Regular.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family:lemon ;
+    src: url(/fonts/LEMONMILK-Medium.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Bold.otf);
+    font-weight: 400;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.message{
+    padding-left: 20%;
+    height: 500px;
+    background-color: rgb(32, 32, 32);
+    font-family: 'Fire Code', monospace;
+    font-size: 2em;
+
+
+}
+
+pre{
+    position: relative;
+}
+
+pre::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: $caret-color;
+    background: $bg;
+    animation: typing 4s steps(454) forwards,
+      caret 1s infinite;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+	to { width: 0 }
+}
+
+@keyframes caret {
+	50% { color: transparent }
+}
+

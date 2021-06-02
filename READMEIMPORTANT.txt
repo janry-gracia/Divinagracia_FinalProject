@@ -1,0 +1,1 @@
+Good day sir! I encountered a problem regarding of implementing my website. wowjs is perfectly works on visual studio code but does not apply when uploaded to netlify. I ll try to submit my project again if can solve this problem. Thank you

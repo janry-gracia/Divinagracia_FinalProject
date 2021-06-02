@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background-image: url(/Pictures/gallery/background13.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+   overflow-x: clip;
+   background-attachment: fixed;
+   animation: opacity 2s forwards;
+}
+
+
+.navbar{
+    background-color: rgba(65, 65, 65, 0.445) !important;
+    padding: 8px;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding-right: 30px;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+.gallery hr{
+    margin: auto;
+    border-top: 5px solid rgb(247, 247, 247);
+    width: 50%;
+    box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.44);
+    -webkit-box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.44);
+}
+
+
+
+
+.nav-link  {
+    color: white !important;
+    font-size: 1.0em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase   ;
+}
+
+.gallery{
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.gallery>h1{
+    font-size: 10em;
+    font-family: lemon;
+    font-weight: 100;
+    color: rgb(253, 253, 253);
+    text-shadow: -1px 3px 7px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.cards{
+    margin-top: 80px;
+}
+
+.card{
+    border: 10px rgb(255, 255, 255) solid;
+    margin: auto;
+    box-shadow: 0px 4px 17px 3px rgba(0,0,0,0.32);
+-webkit-box-shadow: 0px 4px 17px 3px rgba(0,0,0,0.32);
+-moz-box-shadow: 0px 4px 17px 3px rgba(0,0,0,0.32);
+    padding-bottom: 0px;
+
+    transition: all 0.3s ease;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    box-shadow: 1px 0px 23px 7px rgba(0,0,0,0.29) inset;
+    -webkit-box-shadow: 1px 0px 23px 7px rgba(0,0,0,0.29) inset;
+    -moz-box-shadow: 1px 0px 23px 7px rgba(0,0,0,0.29) inset;
+
+}
+
+.card-text{
+    padding-top: 0px;
+    font-family: lemon;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+@media (max-width:1350px) {
+    .navbar-nav li{
+      padding-right: 10px;
+  }
+  }
+
+@media (max-width:1300px) {
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  .9em;
+    }
+
+    .navbar-nav li{
+      padding-right: 15px;
+  }
+  }
+
+  @media (max-width:1230px) {
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  .8em;
+    }
+
+    .navbar-nav li{
+      padding-right: 10px;
+  }
+  }
+
+  @media (max-width:1200px) {
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  .8em;
+    }
+
+    .navbar-nav li{
+      padding-right: 5px;
+  }
+  
+  
+
+}
+
+@media (max-width:990px) {
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  1.2em;
+    }
+
+    .navbar-nav li{
+      padding-right: 5px;
+  }
+}
+
+
+@media (max-width:768px) {
+
+  .nav-item{
+    text-align: center;
+  }
+
+  .nav-link{
+    font-size:  1.2em;
+  }
+
+  .navbar-nav li{
+    padding-right: 5px;
+}
+
+.gallery>h1{
+    font-size: 7em;
+
+}
+
+.gallery>h1{
+    font-size: 7em;
+
+}
+
+
+}
+
+
+@media (max-width:576px) {
+    .gallery>h1{
+        font-size: 6em;
+
+    }
+}
+/*Animation*/
+@keyframes opacity {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Light.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Regular.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family:lemon ;
+    src: url(/fonts/LEMONMILK-Medium.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Bold.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: bako;
+    src: url(/fonts/BaksoSapi.otf);
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.message{
+    height: 500px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+
+}
+
+p.message{
+    margin-top: 180px;
+    font-family: 'Fire Code', monospace;
+    font-size: 5em;
+    font-weight: 200;
+    color: white;
+    border-right: solid 2px rgb(255, 255, 255);
+    white-space: nowrap;
+    overflow: hidden;    
+    animation: animated-text 4s steps(45,end) 1s 1 normal both ,
+               animated-cursor 1000ms steps(45,end) infinite alternate;
+}
+
+.nav{
+    background-color: rgb(92, 92, 92);
+}
+
+ 
+  
+  /* Animation */
+  @keyframes animated-text{
+    from{width: 0%;}
+    to{width: 100%;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: rgb(255, 255, 255);}
+    to{border-right-color: transparent;}
+  }
+

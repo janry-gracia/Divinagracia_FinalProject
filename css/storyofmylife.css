@@ -1,0 +1,1143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: rgb(85, 85, 85);
+    padding: 0;
+    margin: 0;
+   overflow-x: clip;
+   animation: opacity 2s forwards;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.message{
+    height: 500px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    padding-top: 200px;
+    animation: animated-div 4s  ;
+
+}
+
+p.message{
+    font-family: 'Fire Code', monospace;
+    font-size: 4em;
+    font-weight: 200;
+    color: white;
+    border-right: solid 2px rgb(255, 255, 255);
+    white-space: nowrap;
+    overflow: hidden;    
+    animation: animated-text 4s steps(45,end) 1s 1 normal both ,
+               animated-cursor 1000ms steps(45,end) infinite alternate;
+}
+
+.navbar{
+    background-color: rgb(41, 41, 41) !important;
+    padding: 8px;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding-right: 30px;
+}
+
+
+
+.nav-link  {
+    color: white !important;
+    font-size: 1.0em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase   ;
+}
+
+.profile{
+    background-image: url("/Pictures//profile1.jpg");
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 300px;
+    box-shadow: 0px 20px 50px rgb(39, 39, 39);
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+div.introduction{
+   padding-right: 60px;
+    height: 200px;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+p.introduction{
+    font-size: 2em;
+    color: white;
+    font-family: lemon;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+div.family{
+    margin-top: 50px;
+}
+
+
+.family{
+    height: 1000px;
+}
+
+.family-container{
+    text-align: center;
+    margin-top: 30%;
+}
+
+.fa-male, .fa-female{
+    font-size: 30em ;
+    letter-spacing: 20px;
+    color: rgb(129, 25, 25);
+    margin-top: 5%;
+}
+
+.me{
+    font-size: 27em;
+    color: green;
+}
+.brother{
+    font-size: 24em;
+    color: rgb(14, 221, 176);
+}
+
+.sister{
+    font-size: 25em;
+    color: rgb(71, 136, 211);
+}
+
+.mother{
+    font-size: 29em;
+    color: rgb(223, 223, 75);
+}
+
+.tooltip {
+	font-size: 1.7em;
+  font-family: lemon;
+  font-weight: 100;
+}
+
+.tooltip-inner {
+  max-width: 500px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(68, 68, 68);
+  border-radius: 1rem;
+}
+
+.tooltip .arrow:before {
+  border-bottom-color:rgb(63, 63, 63) !important;
+   border-top-color:rgb(66, 66, 66) !important;
+   }
+
+.family-text{
+    font-family: lemon, cursive;
+    font-weight: 100;
+    font-size: 10em;
+    color: white;
+}
+
+div.education{
+  text-align: center;
+  font-family: lemon, cursive;
+
+  
+}
+h1.education{
+  font-weight: 100;
+  font-size: 8em;
+  color: white;
+
+}
+
+
+/*timeline*/
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 250px;
+    margin-top: 250px;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container-timeline {
+    padding: 10px 60px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .unor::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: -55px;
+    background-image: url(/Pictures/unor.png);
+    background-position: center;
+    background-size: cover;
+    border: 4px solid #0055a5;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .nohs::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: -55px;
+    background-image: url(/Pictures/nohs1.png);
+    background-position: center;
+    background-size: cover;
+    border: 4px solid #310a0a;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  
+  .etcs3::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: -55px;
+    background-image: url(/Pictures/etcs3.png);
+    background-position: center;
+    background-size: cover;
+    border: 4px solid #11369c;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+
+  
+  
+  /* Place the container to the left */
+  .left {
+    left: -25.4%;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 25.4%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 50px;
+    border: medium solid #ffffffbd;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #ffffffbd;
+  }
+
+  .nohs1::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 50px;
+    border: medium solid #440000bd;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #440000bd;
+  }
+
+  .unor::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 50px;
+    border: medium solid #0055a5;;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #0055a5;;
+  }
+
+  
+
+  
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 50px;
+    border: medium solid #440000bd;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #440000bd transparent transparent;
+  }
+
+  .etcs3::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 50px;
+    border: medium solid #11369c;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #11369c transparent transparent;
+  }
+
+  .nohs2::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 50px;
+    border: medium solid #440000bd;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #440000bd transparent transparent;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -55px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    text-align: center;
+    font-family: lemon;
+    font-weight: 100;
+  }
+
+  .content > h2,p{
+    font-weight: 100;
+  }
+
+  .etcs3-cont{
+    background-color: #11369c;
+    color: white;
+    font-size: 2em;
+  }
+
+  .nohs-cont{
+    background-color:   #440000bd;
+    color: white;
+    font-size: 2em;
+  }
+
+  .unor-cont{
+    background-color:     #0055a5;
+    color: white;
+    font-size: 2em;
+  }
+
+
+
+
+  .hide{
+    opacity: 0;
+  }
+
+
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+    .timeline::after {
+      left: 31px;
+    }
+  
+  /* Full-width containers */
+    .container-timeline {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+  /* Make sure that all arrows are pointing leftwards */
+    .container-timeline::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+  /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+  /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+
+    .left{
+      left: 0%;
+    }
+  }
+
+
+
+  .margin{
+    margin-top: 200px;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    font-size:3em;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+
+  .margin h1{
+    font-size:3em;
+    color: yellow;
+  }
+
+  .fixed{
+    background: url(/Pictures/palmas1.jpg);
+    min-height: 100%;
+    background-position:0% 60%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .achievements{
+    color: #fff;
+    font-size: 8em;
+    font-family: lemon;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  p.school{
+    font-size: 1.4em;
+    margin-top: -10px;
+    font-family: lemon;
+    font-weight: 100;
+    color: #fff;
+  }
+
+  h3.school{
+    font-family: lemon;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 100;
+  }
+  
+
+  .dean, .honors, .award{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-right: 3%;
+  }
+
+  .fa-medal, .fa-award{
+    font-size: 8em;
+    margin-bottom: 50px;
+  }
+
+  .newbg{
+    background: rgb(209,209,209);
+    background: linear-gradient(0deg, rgba(209,209,209,1) 0%, rgba(85,85,85,1) 100%);
+  }
+
+  div.lazy1{
+    text-align: left;
+    margin-top: 200px;
+    border-width: 20px;
+    border-color: white;
+    padding-bottom: 10%;
+  }
+
+  h1.lazy{
+
+    font-family: lemon;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 100;
+
+  }
+
+ 
+  .sketchy {
+    padding: 4rem 8rem;
+    display: inline-block;
+    border: 3px solid #ffffff;
+    font-size: 2.5rem;
+    border-radius: 2% 6% 5% 4%/1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: #ffffff0a;
+    position: relative;
+  }
+  .sketchy::before {
+    content: "";
+    border: 2px solid #d4d4d4;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+    border-radius: 1% 1% 2% 4%/2% 6% 5% 4%;
+  }
+
+  .progress{
+    width: 80%;
+    margin: auto;
+
+  }
+
+  .itskills{
+    text-align: center;
+    margin-top: 10em;
+  }
+
+  .itskills > h1{
+    font-size: 8em;
+    font-family: lemon;
+    font-weight: 100;
+    color: white;
+  }
+
+  .fa-html5{
+    color:  #e34c26;
+  }
+
+  .fa-css3-alt{
+    color: #264de4;
+  }
+
+  .fa-bootstrap{
+    color: #602C50;
+  }
+
+  .fa-js{
+    color: #F0DB4F;
+  }
+
+  .fa-java{
+    color:  #f89820
+  }
+
+
+
+  .fa-bootstrap,.fa-css3-alt,.fa-html5,.fa-java,.fa-js{
+    font-size: 5em;
+    margin-top: 15%;
+
+  }
+
+  .html5>p, .css3>p, .javascript>p, .bootstrap>p, .java>p{
+    color: white;
+    font-size: 2em;
+    font-family: lemon;
+    font-weight: 100;
+  }
+
+  .prog-html{
+    background-color:  #e34c26;
+  }
+
+  .prog-css3{
+    background-color: #264de4;
+  }
+
+  .prog-js{
+    background-color: #F0DB4F;
+  }
+
+  .prog-bootstrap{
+    background-color:#602C50;
+  }
+
+  .prog-java{
+    background-color:#f89820;
+  }
+
+  .os{
+    margin-top: 20%;
+    color: white;
+    font-family: lemon;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .os>h1{
+    font-weight: 100;
+    font-size: 7em;
+  }
+
+  .ose{
+    margin-top: 7%;
+  }
+  .fa-pen-nib, .fa-photo-video{
+    font-size:5.2em;
+  }
+
+  .ose>p{
+    margin-top: 5%;
+    font-size: 2em;
+  }
+
+  .fa-pen-nib{
+    color: #4FCCFE;
+  }
+
+  .fa-photo-video{
+    color: #9950d4;
+  }
+
+  .ch{
+    color: white;
+    margin-top: 20%;
+    font-family: lemon;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .ch>h1{
+    font-weight: 100;
+    font-size: 7em;
+  }
+
+  .kobe{
+    background-image: url(/Pictures/kobe.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+  }
+
+  .guitar{
+    background-image: url(/Pictures/guitar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width:500px;
+    height: 500px;
+  }
+
+  .games{
+    background-image: url(/Pictures/gaming.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+  }
+
+  .kobe,.guitar,.games{
+    margin: auto;
+    
+  }
+
+  .kobe1,.guitar1,.games1{
+    margin-top: 150px;
+    
+  }
+
+  .kobe1>p,.guitar1>p,.games1>p{
+    font-size: 3em;
+  }
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  /* Animation */
+  @keyframes animated-text{
+    from{width: 0%;}
+    to{width: 100%;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: rgb(255, 255, 255);}
+    to{border-right-color: transparent;}
+  }
+
+  /*Animation*/
+@keyframes opacity {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+  /*Media Queries */
+@media (max-width:1600px) {
+  p.message{
+    font-size: 3.8em;
+  }
+}
+
+@media (max-width:1500px) {
+  p.message{
+    font-size: 3.6em;
+  }
+
+}
+
+  @media (max-width:1400px) {
+    p.message{
+      font-size: 3.4em;
+    }
+    .nav-link{
+      font-size:  .9em;
+    }
+    p.introduction{
+      font-size: 1.5em;
+    }
+    
+    p.school{
+      font-size: 1.4em;
+      margin-top: -10px;
+      font-family: lemon;
+      font-weight: 100;
+      color: #fff;
+    }
+
+    h3.school{
+      font-family: lemon;
+      color: #fff;
+      font-size: 2.3em;
+      font-weight: 100;
+    }
+  
+
+    
+  }
+
+  @media (max-width:1300px) {
+    p.message{
+      font-size: 3.2em;
+    }
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  .9em;
+    }
+
+    .navbar-nav li{
+      padding-right: 15px;
+  }
+  
+    p.introduction{
+      font-size: 1.5em;
+    }
+  }
+
+  @media (max-width:1230px) {
+    p.message{
+      font-size: 2.6em;
+    }
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  .8em;
+    }
+
+    .navbar-nav li{
+      padding-right: 10px;
+  }
+  
+    p.introduction{
+      font-size: 1.5em;
+    }
+  }
+
+  @media (max-width:1200px) {
+    p.message{
+      font-size: 2.6em;
+    }
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  .8em;
+    }
+
+    .navbar-nav li{
+      padding-right: 5px;
+  }
+  
+    p.introduction{
+      font-size: 1.5em;
+    }
+
+    .fa-male, .fa-female{
+      padding-top: 50px;
+      font-size: 20em ;
+      letter-spacing: 20px;
+  }
+
+    .me{
+      font-size: 17em;
+      color: green;
+  }
+  .brother{
+      font-size: 14em;
+      color: rgb(14, 221, 176);
+  }
+
+  .sister{
+      font-size: 15em;
+      color: rgb(71, 136, 211);
+  }
+
+  .mother{
+      font-size: 19em;
+      color: rgb(223, 223, 75);
+  }
+
+  div.lazy1{
+    text-align: center;
+
+  }
+
+}
+
+@media (max-width:990px) {
+    p.message{
+      font-size: 2.2em;
+    }
+    .nav-item{
+      text-align: center;
+    }
+
+    .nav-link{
+      font-size:  1.2em;
+    }
+
+    .navbar-nav li{
+      padding-right: 5px;
+  }
+
+    p.introduction{
+      font-size: 1.1em;
+    }
+
+    .fa-male, .fa-female{
+      padding-top: 50px;
+      font-size: 18em ;
+      letter-spacing: 10px;
+  }
+
+    .me{
+      font-size: 15em;
+      color: green;
+  }
+  .brother{
+      font-size: 12em;
+      color: rgb(14, 221, 176);
+  }
+
+  .sister{
+      font-size: 13em;
+      color: rgb(71, 136, 211);
+  }
+
+  .mother{
+      font-size: 17em;
+      color: rgb(223, 223, 75);
+  }
+
+  .family-text{
+    font-size: 8em;
+  }
+
+  .timeline {
+    margin-top: 50px;
+  }
+  
+  .family{
+    height: 800px;
+}
+
+.profile{
+  width: 450px;
+  height: 450px;
+}
+
+.achievements {
+  font-size: 6em;
+}
+
+.education{
+  font-size: .7em;
+}
+
+
+
+p.school{
+  font-size: 1em;
+
+}
+
+h3.school{
+  font-size: 1.5em;
+
+}
+
+.award,.dean,.honors{
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.award{
+  margin-bottom: 20%;
+}
+
+.html-prog{
+  width: 40%;
+}
+
+div.lazy1{
+margin-right: 8%;
+}
+h1.lazy{
+  font-size: 1.5em;
+}
+
+
+}
+
+
+@media (max-width:768px) {
+
+  .html-prog{
+    width: 80%;
+  }
+  div.message{
+    height: 300px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    padding-top: 150px;
+    animation: animated-div 4s  ;
+
+}
+  p.message{
+    font-size: 1.6em;
+  }
+  .nav-item{
+    text-align: center;
+  }
+
+  .nav-link{
+    font-size:  1.2em;
+  }
+
+  .navbar-nav li{
+    padding-right: 5px;
+}
+
+
+div.introduction{
+  padding:  0 50px;
+   height: 300px;
+   text-align: center;
+   margin-top: 50px;
+
+}
+
+  p.introduction{
+    font-size: 1.1em;
+    line-height: 2em;
+  }
+
+  .fa-male, .fa-female{
+    padding-top: 50px;
+    font-size: 12em ;
+    letter-spacing: 10px;
+}
+
+  .me{
+    font-size: 10em;
+    color: green;
+}
+.brother{
+    font-size: 8em;
+    color: rgb(14, 221, 176);
+}
+
+.sister{
+    font-size: 9em;
+    color: rgb(71, 136, 211);
+}
+
+.mother{
+    font-size: 12em;
+    color: rgb(223, 223, 75);
+}
+
+.family-text{
+  font-size: 6em;
+}
+
+.timeline {
+  margin-top: 50px;
+}
+
+.family{
+  height: 700px;
+}
+
+h1.education{
+  font-size: 6em;
+  color: white;
+
+}
+.profile{
+  width: 450px;
+  height: 450px;
+}
+
+.achievements{
+  font-size: 4em;
+}
+
+.content > h2,p{
+  font-size: .6em;
+}
+
+div.lazy1{
+  margin-right: 17%;
+  }
+  h1.lazy{
+    font-size: 1em;
+  }
+
+}
+
+@media (max-width:594px) {
+  .content > h2,p{
+    font-size: 1em;
+  }
+  .itskills{
+    font-size: 1em;
+  }
+
+  .ch{
+    font-size: .8em;
+  }
+
+  div.lazy1{
+    margin-right: 17%;
+    }
+    h1.lazy{
+      font-size: .8em;
+    }
+  
+  }
+
+
+  @font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Light.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Regular.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family:lemon ;
+    src: url(/fonts/LEMONMILK-Medium.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(/fonts/LEMONMILK-Bold.otf);
+    font-weight: 400;
+}
